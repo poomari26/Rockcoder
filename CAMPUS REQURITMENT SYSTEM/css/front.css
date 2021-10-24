@@ -1,0 +1,278 @@
+.container {
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#hrd {
+    background-color: rgb(255, 32, 16);
+}
+
+#hrd ul {
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+}
+
+#hrd li {
+    text-align: center;
+    display: inline;
+}
+
+#hrd a {
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(6, 6, 10);
+    text-align: center;
+}
+a:hover{
+    background-color: rgb(30, 158, 19);
+}
+dhgd{
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.login{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.box{
+    min-height: 70vh;
+    width: 70%;
+  background-color: black;
+    border-radius: 30px;
+    box-shadow: 5px 5px 6px rgba(0,0,0,.5),
+              -5px -5px 6px rgba(0,0,0,.5);
+    flex-wrap: wrap;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.lo{
+    -webkit-flow-into: 50px;
+    color:#FC00ff;
+    position: relative;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+.form{
+    min-width: 50%;
+    min-height: 50vh;
+    color: white;
+}
+.form hover{
+    background: yellow;
+}
+label{
+    font-size: 20px;
+    font-family: Arial;
+    line-height: 2;
+    font-weight: 500;
+    padding-left: 20px;
+}
+button{
+    outline: none;
+    margin-left: 1 rem;
+    margin-top: 2 rem;
+    display: flex;
+    align-items: center;
+    padding: 5px 80px;
+    border-radius: 30px;
+    background-color: #FC00F0;
+    color: white;
+    text-align: center;
+}
+input{
+    color: white;
+    background: transparent;
+    border-bottom: 1px solid white;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+button{
+    outline: none;
+    margin-left: 1 rem;
+    margin-top: 2 rem;
+    display: flex;
+    align-items: center;
+    padding: 5 px 80px;
+    border-radius: 30px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    background : #CF00F0;
+    color: white;
+
+}
+#man{
+    width: 15rem;
+    height: 15rem;
+    position: relative
+    bottom; -6rem;
+    right: 7rem;
+    z-index: 2;
+}
+.officer{
+    background-color: rgb(184, 12, 175);
+    text-align: center;
+   font-size: large;
+    border-style: initial;
+    font-family: fantasy;
+    font-weight: bold;
+     height: 20%;
+     width: 68%;
+     align-items: center;
+    
+}
+.Regi{
+    background-color: fuchsia;
+    align-items: center;
+    font-size: large;
+    margin: 20px;
+    padding: 20px;
+    border: indigo;
+    border-style: groove;
+    height: 40%;
+    width: 50%;
+
+}
+.tx-tabl{
+    table-layout: inherit;
+}
+.header {
+align-items: center;
+
+color: rgb(36, 202, 72);
+background-color: rgb(21, 17, 223);
+height: 20%;
+width: 55%;
+font-color:white;
+
+}
+.header:hover{
+    background-color: rgb(236, 15, 15);
+
+}
+.Demo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    height: 50%;
+    width: 55%;
+    background-color: red;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
+label{
+    width: 240px;
+    display: inline-block;
+}
+.form1:hover{
+    background-color: blueviolet;
+}
+
+
+.can{
+    font-style: italic;
+    font-weight: bold;
+    border-style: double;
+    color: chartreuse;
+    background-color: coral;
+}
+.can:hover{
+    background-color: rgb(0, 118, 139);
+}
+.job{
+    border-color: orangered;
+}
+.off{
+    background-color: rgb(25, 200, 223);
+text-align: center;
+font-style: initial;
+width: 68%;
+height: 40%;
+
+
+}
+.come{
+    background-color: purple;
+    
+}
+#about{
+      font-size: 20px;
+      color: red;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.job{
+    background-color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px;
+
+}
+aside{
+    border-style: groove;
+    font-style: italic;
+    font-size: small;
+    background-color: crimson;
+    
+}
+#source{
+    font-size: 20px;
+    color:red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#program{
+    font-size: 20px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#cost{
+    font-size: 20px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.job:hover{
+    background-color: chartreuse;
+}
+.sangee{
+    background-color: rgb(34, 170, 211);
+    height: 50%;
+    width: 68%;
+}
+#id-phone:hover{
+    background-color: orangered;
+}
+.off:hover{
+background-color: orangered;
+}
+.poomari{
+    background-color: orchid;
+    width: 68%;
+    height: 50%;
+}
+#id-thhead:hover{
+background-color: orangered;
+}
+.officer:hover{
+    background-color: orangered;
+}

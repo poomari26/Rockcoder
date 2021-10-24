@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="\css\front.css">
+    <title>login page</title>
+    
+
+</head>
+<body>
+
+    <form name= "form1" action="\HTML\loginexsitingpage.html" onsubmit="return (validate())"autocomplete="off">
+    
+    <table>
+    <div class="login">
+        <div class="box">
+            
+    
+    
+            <div class="form" id="form">
+        <h1 class="lo"> Login</h1><br><br>
+    <label for="">User name</label><br><br>
+    <input id="name" type="text" ><br><br><br>
+    <label for=""> password</label><br><br>
+    <input id="pass" type="password" ><br><br><br>
+    <button>Submit</button>
+
+</div>
+<img src="\images\f.jpg " id="man"/>
+    </div>
+
+
+        </div>
+    </form>
+</table>
+<script>
+function validate(){
+    var name1 = document.getElementById("name").value;
+    var password = document.getElementById("pass").value;
+    if( name1 == ""){
+        alert ( "Enter the name");
+        document.form1.name.focus();
+        return false;
+    }
+    if ( !isNaN( name1)){
+        alert ( "Enter alphabets only");
+        document.form1.name.value="";
+        document.form1.name.focus();
+        return false;
+    }
+    if ( pass1 <6 ){
+        alert ("Enter atleast 6 charecters");
+        document.form1.pass.value="";
+        document.form1.pass.focus();
+        return false;
+    }
+
+}
+    </script>
+
+</body>
+</html>
